@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+/* CONFIGURAÇÕES DE FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+/* CONFIGURAÇÕES DE ATALHOS */
+:root {
+    --font0: 'Cookie', cursive;
+    --color0: #dddada;
+    --facebook: #1877f2;
+    --instagram: #e2306c;
+    --messenger: #1877f2;
+    --whatsapp: #25d366;
+    --pinterest: #E60023;
+    --twitter: #1d9bf0;
+    --discord: #5865f2;
+    --reddit: #ff4500;
+    --twitch: #a970ff;
+    --telegram: #29a9ea;
+}
+
+/* CONFIGURAÇÕES UNIVERSAIS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* CONFIGURAÇÕES DO CORPO */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #111;
+    width: 100%;
+    height: 100%;
+}
+
+/* CONFIGURAÇÕES DO CABEÇALHO */
+header div {
+    font-family: var(--font0);
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+div.perf img {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #fff;
+}
+
+div.perf p#name {
+    font-family: var(--font0);
+    font-size: 4em;
+    font-weight: bold;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+    cursor: default;
+}
+
+div.perf p#desc {
+    font-family: var(--font0);
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+    cursor: default;
+}
+
+/* CONFIGURAÇÕES DO MAIN */
+main {
+    text-align: center;
+}
+
+main button {
+    background-color: #110;
+    font-size: 1.5em;
+    color: #fff;
+    margin-top: 3px;
+    padding: 7px;
+    width: 270px;
+    border-width: 0;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 0 0 3px #fff;
+}
+
+main a button.facebook:hover {
+    background-color: var(--facebook);
+    transition: 300ms;
+    color: #000;
+    box-shadow: 0 0 10px var(--facebook);
+}
+
+main a button.instagram:hover {
+    background-color: var(--instagram);
+    transition: 300ms;
+    color: #000;
+    box-shadow: 0 0 10px var(--instagram);
+}
+
+main a button.messenger:hover {
+    background-color: var(--messenger);
+    transition: 300ms;
+    color: #000;
+    box-shadow: 0 0 10px var(--messenger);
+}
+
+main a button.whatsapp:hover {
+    background-color: var(--whatsapp);
+    transition: 300ms;
+    color: #000;
+    box-shadow: 0 0 10px var(--whatsapp);
+}
+
+main a button.pinterest:hover {
+    background-color: var(--pinterest);
+    transition: 300ms;
+    color: #000;
+    box-shadow: 0 0 10px var(--pinterest);
+}
+
+main a button.twitter:hover {
+    background-color: var(--twitter);
+    transition: 300ms;
+    color: #000;
+    box-shadow: 0 0 10px var(--twitter);
+}
+
+main a button.discord:hover {
+    background-color: var(--discord);
+    transition: 300ms;
+    color: #000;
+    box-shadow: 0 0 10px var(--discord);
+}
+
+main a button.reddit:hover {
+    background-color: var(--reddit);
+    transition: 300ms;
+    color: #000;
+    box-shadow: 0 0 10px var(--reddit);
+}
+
+main a button.twitch:hover {
+    background-color: var(--twitch);
+    transition: 300ms;
+    color: #000;
+    box-shadow: 0 0 10px var(--twitch);
+}
+
+main a button.telegram:hover {
+    background-color: var(--telegram);
+    transition: 300ms;
+    color: #000;
+    box-shadow: 0 0 10px var(--telegram);
+}
+
+/* CONFIGURAÇÕES DO RODAPÉ */
+footer {
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    margin-top: 10%;
+    padding: 10px;
+    border-top: 1.2px solid #fff;
+}
+
+footer img {
+    width: 1rem;
+}
